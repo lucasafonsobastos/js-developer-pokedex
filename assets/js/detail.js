@@ -1,1 +1,0 @@
-const selectDetail = document.querySelectorAll('li ')

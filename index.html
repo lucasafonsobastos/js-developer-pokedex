@@ -23,7 +23,7 @@
 </head>
 
 <body>
-    <section class="content">
+    <section class="content" style="display: none;">
         <h1>Pokedex</h1>
 
         <ol class="pokemons">
@@ -37,14 +37,40 @@
         </div>
     </section>
     <section class="content-detail">
-
+        <div class="div-titulo">
+            <button><img src="/assets/img/seta-esquerda.png" alt=""></button>
+            <img src="/assets/img/pokebola_1.png" alt="">
+        </div>
+        <div class="div-name">
+            <div>
+                <h1 class="nome">Nome</h1>
+            <span class="number">#001</span>
+            </div>
+            <ol class="types ">
+                <li  class="type" > 00001</li>
+                <li  class="type" > 00002</li>
+            </ol>
+        </div>
+        <div class="div-imagem">
+            <img src="https://raw.githubusercontent.com/PokeAPI/sprites/master/sprites/pokemon/other/home/1.png" alt="imagem pkemon"/>
+        </div>
+        <div class="div-detail">
+            <span class="status">Detalhes</span>
+            <ol class="lista-stat">
+                <li class="stat"><h3>tipo</h4> <h2>descrição</h4></li>
+                <li class="stat"><h3>tipo</h4> <h2>descrição</h4></li>
+                <li class="stat"><h3>tipo</h4> <h2>descrição</h4></li>
+                <li class="stat"><h3>tipo</h4> <h2>descrição</h4></li>
+                <li class="stat"><h3>tipo</h4> <h2>descrição</h4></li>
+                <li class="stat"><h3>tipo</h4> <h2>descrição</h4></li>
+            </ol>
+        </div>
     </section>
 
     <!-- Nosso JS -->
     <script src="/assets/js/pokemonModel.js"></script>
     <script src="/assets/js/api.js"></script>
     <script src="/assets/js/main.js"></script>
-    <script src="/assets/js/detail.js"></script>
 </body>
 
 </html>

@@ -55,6 +55,7 @@
     text-align: center;
 }
 
+
 .pokemon .detail img {
     max-width: 100%;
     height: 100px;
@@ -151,7 +152,79 @@ button#bt-carregaMais img {
 .fairy {
     background-color: #f9aec7;
 }
+ /* TELA DE DETALHES */
+ .content-detail {
+    background-color: palegreen;
+    height: 100vh;
+ }
+ .div-titulo {
+    padding: 0 1.5rem;
+    padding-top: .5rem;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    }
 
+ .div-titulo img {
+     width: 2.5rem;
+ }
+ 
+ .div-titulo button {
+     background-color: transparent;
+     border: 0;
+ }
+
+ .div-name {
+    padding: 0 2rem;
+}
+
+div.div-name div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: white;
+}
+
+section.content-detail ol.types {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    list-style: none;
+    align-items: center;
+}
+
+section.content-detail li.type {
+    padding: 0 1rem;
+    color: white;
+    background-color: limegreen;
+    height: 1.8rem;
+    margin-right: .5rem;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+}
+
+div.div-imagem img {
+    height: 20rem;
+}
+
+.div-imagem {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+}
+
+.div-detail {
+    background: white;
+    width: 100vw;
+    border-radius: 50px;
+}
+
+/* RESPONSIVIDADE */
 @media screen and (min-width: 380px) {
     .pokemons {
         grid-template-columns: 1fr 1fr;
