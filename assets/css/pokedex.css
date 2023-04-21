@@ -152,31 +152,37 @@ button#bt-carregaMais img {
 .fairy {
     background-color: #f9aec7;
 }
+
+
  /* TELA DE DETALHES */
- .content-detail {
+.content-detail {
     background-color: palegreen;
     height: 100vh;
- }
- .div-titulo {
+}
+.div-titulo {
     padding: 0 1.5rem;
     padding-top: .5rem;
     display: flex;
     flex-direction: row;
     align-items: center;
     justify-content: space-between;
-    }
+}
 
- .div-titulo img {
-     width: 2.5rem;
- }
+.div-titulo img {
+    width: 2.5rem;
+}
  
- .div-titulo button {
-     background-color: transparent;
-     border: 0;
- }
+.div-titulo button {
+    background-color: transparent;
+    border: 0;
+}
 
- .div-name {
+.div-name {
     padding: 0 2rem;
+}
+
+.div-name h1 {
+    margin: 0;
 }
 
 div.div-name div {
@@ -197,16 +203,17 @@ section.content-detail ol.types {
 section.content-detail li.type {
     padding: 0 1rem;
     color: white;
-    background-color: limegreen;
     height: 1.8rem;
     margin-right: .5rem;
     border-radius: 10px;
     display: flex;
     align-items: center;
+    filter: brightness(1.1);
+    text-transform: capitalize;
 }
 
 div.div-imagem img {
-    height: 20rem;
+    height: 18rem;
 }
 
 .div-imagem {
@@ -222,7 +229,62 @@ div.div-imagem img {
     background: white;
     width: 100vw;
     border-radius: 50px;
+    padding: 2rem;
 }
+
+.div-name h1 {
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.div-titulo button img {
+    width: 1.5rem;
+}
+
+ol.lista-stat {
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+    padding: 0;
+}
+
+li.stat {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+li.stat h2 {
+    padding: 0 1rem;
+    margin: 0;
+    font-size: initial;
+}
+
+li.stat h3 {
+    padding: 0 1rem;
+    font-size: initial;
+    text-transform: uppercase;
+    opacity: .7;
+}
+
+.stat-div {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    width: 10rem;
+}
+
+.stat-span {
+    width: 10rem;
+    height: 10px;
+}
+
+div.nivel {
+    background-color: gray;
+    height: 10px;
+}
+
 
 /* RESPONSIVIDADE */
 @media screen and (min-width: 380px) {

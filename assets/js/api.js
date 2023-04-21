@@ -37,7 +37,7 @@ function convertPokemon(pokemonDetail){
     pokemon.peso = pokemonDetail.weight;
     pokemon.altura = pokemonDetail.height;
 
-    console.log(pokemon);
+    //console.log(pokemon);
 
     return pokemon;
 }
